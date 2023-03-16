@@ -14,13 +14,13 @@ Feature: US1005 Kullanici configuration.properties'de yazilan datalari parametre
     Then url de "amazon" oldugunu test eder
     And sayfayi kapatir
 
-
+@p1
   Scenario: TC07 Kullanici wisequarter sitesine gidisi test eder
 
     Given kullanici "wqUrl" anasayfaya gider
     Then url de "wisequarter" oldugunu test eder
     And sayfayi kapatir
-
+@p1
   Scenario: TC08 Kullanici walmart sitesine gidisi test eder
 
     Given kullanici "walmartUrl" anasayfaya gider

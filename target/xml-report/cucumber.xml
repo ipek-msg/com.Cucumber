@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.464">
-    <testcase classname="US1006 Kullanici configuration dosyasindaki bilgilerle login olabilmeli" name="TC09 Gecerli kullanici adi ve sifre ile Pozitif Login Testi" time="21.216">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.384">
+    <testcase classname="US1001 Kullanici amazonda test yapar" name="TC01 Kullanici amazonda Nutella aratir" time="0.038">
+        <system-out>
+            <![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna Nutella yazip aratir.............................passed
+And arama sonuclarinin Nutella icerdigini test eder.........................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006 Kullanici configuration dosyasindaki bilgilerle login olabilmeli" name="TC09 Gecerli kullanici adi ve sifre ile Pozitif Login Testi" time="0.007">
         <system-out>
             <![CDATA[Given kullanici "qdUrl" anasayfaya gider....................................passed
 Then ilk sayfa login linkine click yapar....................................passed

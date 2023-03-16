@@ -10,7 +10,7 @@ Feature: US1004 Kullanici bastaki ortak adimlar icin Background kullanir
     And arama sonuclarinin "Nutella" icerdigini test eder
     And sayfayi kapatir
 
-
+@p1
   Scenario: TC04 Kullanici Parametreli method ile Java aratir
 
     Then amazon arama kutusuna "Java" yazip aratir
